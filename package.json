@@ -8,13 +8,26 @@
     "start": "next start"
   },
   "dependencies": {
+    "@apollo/react-hooks": "^4.0.0",
+    "@apollo/react-ssr": "^4.0.0",
+    "@types/styled-components": "^5.1.2",
+    "apollo-boost": "^0.4.9",
+    "apollo-server-micro": "^2.16.1",
+    "graphql": "^15.3.0",
+    "graphql-tag": "^2.11.0",
+    "ipfs": "^0.49.0",
     "next": "9.5.2",
+    "next-with-apollo": "^5.1.0",
+    "orbit-db": "^0.24.2",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "styled-components": "^5.1.1",
+    "uuid": "^8.3.0"
   },
   "devDependencies": {
     "@types/node": "^14.0.27",
     "@types/react": "^16.9.46",
+    "babel-plugin-styled-components": "^1.11.1",
     "typescript": "^3.9.7"
   }
 }
